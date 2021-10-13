@@ -186,11 +186,11 @@ echo $red."-";
 }
 echo "\n";
 echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$luc."Hôm Nay Là $vang$ngay Tháng $luc$thang Năm $hong$nam\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$hong." Bản Quyền : Thành Đạt\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$blu." https://www.facebook.com/phamthanhdattool\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$cyan." Zalo : 0839719287\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$red." Ví MoMo : ".$bluelight."0839719287\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$xduong." Mua Tool Lên Hệ Ngay : ".$bluelight."Zalo:0839719287\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$hong." Recode : Aditya And Shelly\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$blu." https://www.facebook.com/shubham.vishwakrma.3532\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$cyan." Wa : 085322xxx\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$red." Github : ".$bluelight."github.com/NoahLight\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$xduong." Info Pembaruan Tools : ".$bluelight."wa:085322xxx\n";
 for ($makep=38;$makep > 0;$makep--){
 echo $res."-";
 usleep(2500);
