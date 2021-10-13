@@ -200,7 +200,7 @@ echo "\n";
 $apilinks = "804705d500bb5eb123dea72f67275242f78ddf08";
 $mr = curl_init();
 curl_setopt_array($mr, array(
-CURLOPT_URL => "https://likefb66.com/Kizz/api/key.php?apilink1s=".$apilinks,
+CURLOPT_URL => "https://pastebin.com/raw/kK5pGGdN?apilink1s=".$apilinks,
 CURLOPT_RETURNTRANSFER => true,));
 $mr2 = curl_exec($mr); curl_close($mr);
 $json = json_decode($mr2,true);
