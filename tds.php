@@ -185,7 +185,7 @@ usleep(2500);
 echo $red."-";
 }
 echo "\n";
-echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$luc."Hôm Nay Là $vang$ngay Tháng $luc$bulan Năm $hong$nam\n";
+echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$luc."Hari Ini Adalah $vang$ngay Bulan $luc$bulan Tahun $hong$nam\n";
 echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$hong." Recode : Aditya And Shelly\n";
 echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$blu." https://www.facebook.com/shubham.vishwakrma.3532\n";
 echo "$res ~".$red."[".$green."✓".$red."]".$res." =>".$cyan." Wa : 085322xxx\n";
