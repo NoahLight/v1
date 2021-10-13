@@ -1112,23 +1112,23 @@ function delay($delay) {
     $time = $delay; 
     for ( $x = $time; $x--; $x ) {
        echo "                                                      \r";
- echo "\e[1;32m Chờ Xíu Đang Chạy <~> \e[1;37m【\e[1;31m⚀\e[1;32m⚁\e[1;33m⚂\e[1;34m⚃\e[1;35m⚄\e[1;37m】".$x." \e[1;33mgiây";
+ echo "\e[1;32m Tools Berjalan <~> \e[1;37m【\e[1;31m⚀\e[1;32m⚁\e[1;33m⚂\e[1;34m⚃\e[1;35m⚄\e[1;37m】".$x." \e[1;33mProses";
        usleep(170000);
        echo "\r";
        echo "                                                      \r";
-       echo "\e[1;36m Chờ Xíu Đang Chạy <~> \e[1;37m【\e[1;33m⚀\e[1;34m⚁\e[1;35m⚂\e[1;36m⚃\e[1;31m⚄\e[1;37m】".$x."\e[1;34m giây";
+       echo "\e[1;36m Tools Berjalan <~> \e[1;37m【\e[1;33m⚀\e[1;34m⚁\e[1;35m⚂\e[1;36m⚃\e[1;31m⚄\e[1;37m】".$x."\e[1;34m Proses";
        usleep(170000);
        echo "\r";
        echo "                                                      \r";
-       echo "\e[1;34m Chờ Xíu Đang Chạy <~> \e[1;37m【\e[1;34m⚀\e[1;35m⚁\e[1;36m⚂\e[1;31m⚃\e[1;33m⚄\e[1;37m】".$x."\e[1;31m giây";
+       echo "\e[1;34m Tools Berjalan <~> \e[1;37m【\e[1;34m⚀\e[1;35m⚁\e[1;36m⚂\e[1;31m⚃\e[1;33m⚄\e[1;37m】".$x."\e[1;31m Proses";
        usleep(170000);
        echo "\r";
        echo "                                                      \r";
-       echo "\e[1;33m Chờ Xíu Đang Chạy <~> \e[1;37m【\e[1;35m⚀\e[1;36m⚁\e[1;31m⚂\e[1;33m⚃\e[1;34m⚄\e[1;37m】".$x."\e[1;32m giây";
+       echo "\e[1;33m Tools Berjalan <~> \e[1;37m【\e[1;35m⚀\e[1;36m⚁\e[1;31m⚂\e[1;33m⚃\e[1;34m⚄\e[1;37m】".$x."\e[1;32m Proses";
        usleep(175000);
        echo "\r";
        echo "                                                      \r";
-       echo "\e[1;31m Chờ Xíu Đang Chạy <~> \e[1;37m【\e[1;33m⚀\e[1;32m⚁\e[1;31m⚂\e[1;35m⚃\e[1;36m⚄\e[1;37m】".$x."\e[1;36m giây";
+       echo "\e[1;31m Tools Berjalan <~> \e[1;37m【\e[1;33m⚀\e[1;32m⚁\e[1;31m⚂\e[1;35m⚃\e[1;36m⚄\e[1;37m】".$x."\e[1;36m Proses";
        usleep(170000);
        echo "\r";
       
