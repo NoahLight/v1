@@ -237,7 +237,7 @@ usleep(2500);
 echo $red."-";
 echo "\n";
   $_SESSION['check'] = file_exists("log.txt");
-echo "\033[1;37m~\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m =>\033[1;32m Nhập Access_Token TDS: $vang";
+echo "\033[1;37m~\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m =>\033[1;32m Masukan Token TDS: $vang";
   $tokenacc = trim(fgets(STDIN));
   for($i=0; $i<=15; $i++){
 echo "\033[1;31m─ ";
@@ -298,10 +298,10 @@ usleep(2500);
 echo $red."-";
 }
 echo "\n";
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Tài Khoản TDS: ".$vang.$user."\n";
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Số Xu Hiện Tại: ".$vang.$xuhientai."\n";
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Đang Dùng: ".$vang.$demcki."\033[1;32m Nick Chạy\n";
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Bắt Đầu Chạy Tool Vào Lúc: ".$vang.$time."\n";
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Nama Akun TDS: ".$vang.$user."\n";
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Total Uang TDS: ".$vang.$xuhientai."\n";
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Menggunakan: ".$vang.$demcki."\033[1;32m Nick Run\n";
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Mulai Menggunakan Pada Waktu: ".$vang.$time."\n";
 for($i=0; $i<=15; $i++){
 echo "\033[1;31m─ ";
 usleep(20000);
@@ -341,20 +341,20 @@ echo "\n";
 while(true){
   if(count($khocookie) == 0){
     
-    echo $white." 》 ".$green."Nhập Cookie Facebook.$yellow Dừng Thì Bấm Xuống Hàng Nha\n";
+    echo $white." 》 ".$green."Masukan Cookie Facebook.$yellow Berhenti Garis Bawah\n";
 for($a = 1; $a < 999999;$a++){
-echo $white." 》 ".$green."Nhập Cookie Thứ $a: $vang";
+echo $white." 》 ".$green."Masukan Cookie $a: $vang";
 $nhapck = (string)trim(fgets(STDIN));
 if($nhapck == ''){break;}
 array_push($khocookie,$nhapck);
     }
 $demcki=count($khocookie);
-echo $white." 》 ".$green."Bạn Đã Nhập ".$vang.$demcki." ".$luc."Cookie Facebook\n";
+echo $white." 》 ".$green."Anda Masuk ".$vang.$demcki." ".$luc."Cookie Facebook\n";
   }
   $themtk = 0;
   for($xz=0;$xz<count($khocookie);$xz++){
  if ( $themck == 1){ break;}
- echo $white." 》 ".$green."Đang Tiến Hành Cấu Hình";
+ echo $white." 》 ".$green."Tools Sedang Berjalan";
  $cookie = $khocookie[$xz];
 $access_token = laytoken($cookie);
 //$access_token = $cookie;
